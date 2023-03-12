@@ -1,0 +1,40 @@
+﻿  Camera.cpp
+  main.cpp
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(155,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(156,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(160,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(161,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(162,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(163,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(222,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(239,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(412,33): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\main.cpp(706,17): warning C4390: ';': empty controlled statement found; is this the intent?
+  Mesh.cpp
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\Mesh.cpp(32,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model3D.cpp
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\Model3D.cpp(89,40): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\OpenGl Project\Model3D.cpp(97,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Shader.cpp
+  SkyBox.cpp
+  stb_image.cpp
+  tiny_obj_loader.cpp
+  Generating Code...
+LINK : warning LNK4217: symbol '__glewActiveTexture' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewBindBuffer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBufferData' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGenBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewEnableVertexAttribArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGetUniformLocation' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewUniform1i' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewVertexAttribPointer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBindVertexArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewGenVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewDeleteBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"public: __cdecl gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '__glewGenerateMipmap' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"private: unsigned int __cdecl gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AEAAIPEBD@Z)'
+LINK : warning LNK4217: symbol '__glewDeleteVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"public: __cdecl gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QEAA@XZ)'
+  OpenGl Project.vcxproj -> E:\Laboratoare an 3\Grafica\lab11\OpenGl Project\x64\Debug\OpenGl Project.exe
